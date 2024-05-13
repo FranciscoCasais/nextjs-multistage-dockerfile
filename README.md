@@ -1,6 +1,6 @@
 # nextjs-multistage-dockerfile
 
-## Integrantes:
+## Integrantes
 
 - Casais, Francisco
 - Sampieri, Juan Francisco
@@ -14,7 +14,7 @@ Estos son los archivos necesarios para hostear una aplicación Next.js en un ser
 - ```docker-compose.yaml```: Archivo que construirá el contenedor Docker con el servidor Nginx y la página estática hosteada dentro del mismo
 - ```dockerfile```: Archivo que construye la imagen del contenedor Docker anterior mencionado
 
-## Construcción y ejecución del proyecto:
+## Construcción y ejecución del proyecto
 
 1. Clonar el repositorio en tu terminal con:
 
