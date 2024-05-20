@@ -5,8 +5,6 @@ RUN npm install
 RUN npm run build
 
 FROM nginx:alpine AS run
-RUN rm ./usr/share/nginx/html/index.html
 COPY --from=build ./casais-sampieri/_next/ /_next/
 COPY ./casais-sampieri/public/ /_next/server/app/
-RUN rm ./etc/nginx/conf.d/default.conf
 COPY ./default.conf ./etc/nginx/conf.d/
